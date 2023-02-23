@@ -40,6 +40,7 @@ class App extends Component {
           <input
             type="text"
             placeholder="First Name"
+            autoComplete="off"
             name="firstName"
             value={this.state.firstName}
             onChange={this.handleChange}
@@ -48,6 +49,7 @@ class App extends Component {
           <input
             type="text"
             placeholder="Last Name"
+            autoComplete="off"
             name="lastName"
             value={this.state.lastName}
             onChange={this.handleChange}
@@ -56,6 +58,7 @@ class App extends Component {
           <input
             type="text"
             placeholder="Age"
+            autoComplete="off"
             name="age"
             value={this.state.age}
             onChange={this.handleChange}
